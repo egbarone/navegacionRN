@@ -1,8 +1,8 @@
 import { createDrawerNavigator } from "@react-navigation/drawer";
-import { Acercade } from "../pages/Acercade";
-import { Cart } from "../pages/Cart";
-import { Contacto } from "../pages/Contacto";
-import { Inicio } from "../pages/Inicio";
+import { Acercade } from "../src/components/Acercade";
+import { Cart } from "../src/components/Cart";
+import { Contacto } from "../src/components/Contacto";
+import { Inicio } from "../src/components/Inicio";
 
 const Menu = createDrawerNavigator();
 

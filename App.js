@@ -3,8 +3,8 @@ import { NavigationContainer } from "@react-navigation/native";
 
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { MenuComponet } from "./routes/Menu";
-import { Producto } from "./pages/Producto";
-import { Cart } from "./pages/Cart";
+import { Producto } from "./src/components/Producto";
+import { Cart } from "./src/components/Cart";
 
 const Stack = createNativeStackNavigator();
 
